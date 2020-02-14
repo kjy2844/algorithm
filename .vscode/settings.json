@@ -1,0 +1,10 @@
+{
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -g -o $fileNameWithoutExt && $dir$fileNameWithoutExt.exe",
+        "cpp": "cd $dir && g++ $fileName -g -o $fileNameWithoutExt && $dir$fileNameWithoutExt.exe"
+
+        //"c": "cd $dirWithoutTrailingSlash gcc $fileName -g -o $fileNameWithoutExt && ./$fileNameWithoutExt.exe",
+        //"cpp": "cd $dirWithoutTrailingSlash && g++ $fileName -g -o $fileNameWithoutExt && ./$fileNameWithoutExt.exe"
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe"
+}
